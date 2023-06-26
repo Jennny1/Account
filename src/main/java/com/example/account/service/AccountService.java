@@ -12,7 +12,6 @@ import com.example.account.type.ErrorCode;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import javax.security.auth.login.AccountException;
 import javax.transaction.Transactional;
 
 import static com.example.account.type.AccountStatus.IN_USE;
@@ -20,7 +19,6 @@ import static com.example.account.type.AccountStatus.IN_USE;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Objects;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
